@@ -1,3 +1,6 @@
+فايل الامتحان
+https://docs.google.com/document/d/1YNgf6eCGz2tDBto-kHB4H_KqDNPGNBHZ/edit
+
 def num_List(my_list1):
     x= int(input("Enter Positive integer or  negative to stop :"))
     while x >=0:
