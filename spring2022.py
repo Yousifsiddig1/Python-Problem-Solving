@@ -16,7 +16,7 @@ print('Remainder',remainder)
 # part 3 
 # Question 1 
 my_list = [14,12,9,11,19]
-filename = input("Enter file name :")
+filename = input("Enter file name :")+ '.txt ' 
   #open the file
 file = open(filename, 'w') # or with open(filename, 'w') as file: 
 for i in my_list:
