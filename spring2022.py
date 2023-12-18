@@ -39,7 +39,16 @@ main()
 
 # Question 3
 # Will add soon 
-
+from tkinter import *
+class MyGUI:
+    def __init__(self):
+        main_window =Tk()
+        self.main_window = main_window
+        self.main_window.title("M110 SP23")
+        self.label1=Label(text='Hello, Students!')
+        self.label1.pack(ipadx=10 , ipady=10)
+        mainloop()
+x=MyGUI()
 #Question 4
 class student:
     def __init__(self,name,age,grades):
